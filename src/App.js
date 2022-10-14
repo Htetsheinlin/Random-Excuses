@@ -41,7 +41,7 @@ function App() {
     <>
     <Navbar/>
     <a href="#">
-    <BsFillArrowUpCircleFill className="fixed bottom-20 text-blue-500 right-20 text-6xl"/>
+    <BsFillArrowUpCircleFill className="fixed bottom-10 text-blue-500 right-10 text-6xl"/>
     </a>
       <div className="p-4 flex justify-start md:justify-center flex-wrap">
         {Category.map((value, index) => {
